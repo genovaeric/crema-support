@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Crema — Support</title>
+<style>
+  :root { --bg:#140d09; --fg:#f4ece0; --soft:rgba(244,236,224,.62); --hair:rgba(244,236,224,.16); --accent:#b78457; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:radial-gradient(120% 80% at 50% -10%,#241a13 0%,#140d09 55%,#0b0705 100%);
+    color:var(--fg); min-height:100vh; line-height:1.6; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:640px; margin:0 auto; padding:64px 24px 80px; }
+  .mark { display:flex; align-items:center; gap:12px; margin-bottom:40px; }
+  .mark svg { width:42px; height:42px; }
+  .mark span { font-family:Georgia,"Times New Roman",serif; font-style:italic; font-size:28px; }
+  h1 { font-size:30px; font-weight:600; letter-spacing:-.4px; margin-bottom:8px; }
+  h2 { font-size:18px; font-weight:600; margin:36px 0 10px; }
+  p { color:var(--soft); margin-bottom:14px; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .card { border:1px solid var(--hair); border-radius:16px; padding:22px 24px; background:rgba(255,255,255,.03); margin-top:18px; }
+  .email { font-size:18px; color:var(--fg); }
+  footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--hair); color:var(--soft); font-size:13px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="mark">
+      <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+        <g fill="none" stroke="#fff" stroke-opacity="0.5" stroke-width="16" stroke-linecap="round">
+          <path d="M456 290 q-16 -28 0 -54 q16 -28 0 -54"/><path d="M512 290 q-16 -28 0 -54 q16 -28 0 -54"/><path d="M568 290 q-16 -28 0 -54 q16 -28 0 -54"/>
+        </g>
+        <path d="M322 372 H702 L652 748 Q650 766 512 766 Q374 766 372 748 Z" fill="#efe7d9"/>
+        <path d="M300 366 H724 L712 320 Q710 300 512 300 Q314 300 312 320 Z" fill="#e3d8c2"/>
+        <path d="M335 470 H689 L674 580 H350 Z" fill="#b78457"/>
+      </svg>
+      <span>crema</span>
+    </div>
+
+    <h1>Support</h1>
+    <p>Crema helps you pick the exact shade of coffee-with-cream you like, and show it to a barista or whoever is ordering for you. The shade is the universal unit.</p>
+
+    <div class="card">
+      <h2 style="margin-top:0">Get in touch</h2>
+      <p>Questions, bugs, or ideas? Email us and we'll get back to you.</p>
+      <p class="email"><a href="mailto:eric@coherive.com?subject=Crema%20support">eric@coherive.com</a></p>
+    </div>
+
+    <h2>Common questions</h2>
+    <p><strong style="color:var(--fg)">How does saving work?</strong><br/>Picking a shade is always free. A one-time unlock lets the app remember your own coffee; a second unlock remembers a saved shade for everyone you order for. Your shades live on your device.</p>
+    <p><strong style="color:var(--fg)">Do you collect my data?</strong><br/>No. Crema has no accounts and no analytics, and stores your shades only on your phone. See our <a href="privacy.html">Privacy Policy</a>.</p>
+    <p><strong style="color:var(--fg)">I bought an unlock on another phone.</strong><br/>Open the paywall and tap “restore purchases.” Unlocks are tied to your Apple ID.</p>
+
+    <footer>
+      Crema · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:eric@coherive.com">eric@coherive.com</a>
+    </footer>
+  </div>
+</body>
+</html>
